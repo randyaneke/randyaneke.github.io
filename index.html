@@ -3,18 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to My Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work Samples</a></li>
+                <li><a href="#approach">Approach</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <main>
-        <p>This is my personal website.</p>
-        <a href="mailto:example@example.com" id="email-button">Email Me</a>
-    </main>
+
+    <section id="hero">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Discover my work and what I can do for you!</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>This is a brief introduction about myself and my journey as a developer.</p>
+    </section>
+
+    <section id="work">
+        <h2>Work Samples</h2>
+        <div class="work-sample">
+            <h3>Project Title</h3>
+            <p>Short description of the project.</p>
+        </div>
+        <!-- More work samples can be added here -->
+    </section>
+
+    <section id="approach">
+        <h2>My Approach</h2>
+        <p>I believe in an agile and collaborative workflow that fosters creativity and innovation.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you would like to reach out, please click the button below:</p>
+        <a href="mailto:randy@example.com" class="cta-button">Email Me</a>
+    </section>
+
     <footer>
-        <p>&copy; 2026 My Website</p>
+        <p>&copy; 2026 Randy Aneke. All rights reserved.</p>
     </footer>
 </body>
 </html>
